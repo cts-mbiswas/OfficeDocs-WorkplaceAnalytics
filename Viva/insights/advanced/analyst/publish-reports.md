@@ -97,3 +97,85 @@ Let's say you want to publish your Hybrid workplace dashboard. This dashboard is
 :::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page.":::
 
 ### Select target audience
+
+>[!IMPORTANT]
+> Recipients need to have the Insights app enabled but don’t need a Viva Insights license. The recipient does not need to be within your partition and can be anyone in your organization who fits the above criteria.
+
+You can use the feature's targeting options to publish to specific users or to an audience based on organizational attributes.
+
+* **Publish to specific people**: Select people to publish to directly. These people can be inside or outside your partition. 
+
+* **Publish to an audience based on organizational attributes**: Define a population based on Required and Reserved attributes to receive your published content. You must add at least one condition to publish. These people can only be from within your partition. 
+
+#### Choose how long this card should be active 
+
+Set a date when the published report card will no longer be available for recipients to view. You can select a date up to 90 days out.
+
+#### Choose a name for this publish 
+
+Assign a unique name to your report's publication instance. This name will help you and other analysts identify the report within the Advanced Insights app. This is only visible within the Advanced Insights app and is not visible to recipients.
+
+Continuing our example: 
+
+Let’s say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
+
+:::image type="content" source="../images/publish-reports-target-audience.png" alt-text="Screenshot that shows the page to select a target audience.":::
+
+#### Publish 
+
+Once these details have been filled out, select **Publish** to publish your report.
+
+Upon publishing, the card is available immediately on recipients’ Viva Insights app homepage.  A Teams notification is sent to recipients during their working hours displaying the card , if the recipient hasn’t seen the card already. Recipients can only receive up to one Teams notification a day, so if you publish multiple reports, notifications might be suppressed. If recipients haven’t accessed the card after some time, they’ll receive a reminder notification.  
+
+Finishing our example: 
+
+The published card appears for recipients to view. When the recipient selects **Open**, they'll be taken to the URL you provided.
+
+:::image type="content" source="../images/publish-reports-published-card.png" alt-text="Screenshot that shows how the recipient receives the published report.":::
+
+## Manage your published report 
+
+Once you publish a report, it’s available for all recipients to view. If you decide the details of a published report are incorrect, you can remove the publish via the Publish reports page and create a new publish. You can’t edit a published report.
+
+### Track engagement 
+
+You can learn how recipients are engaging with your published report card by using the Custom Recommendations query. This is like Person and Meeting queries, but it only provides engagement data on the reports you’ve published.  
+
+Navigate to **Create analysis** and select the **Custom query** filter on the top. From there, find the **Custom Recommendations** card and select **Set up analysis**.  
+
+:::image type="content" source="../images/publish-reports-create-analysis.png" alt-text="Screenshot that shows where to find the Custom Recommendations query.":::
+
+In the metrics section, add relevant metrics from the Custom recommendation activity metrics dropdown. Then, run the query.  
+
+When the query completes, download the results from **Query results**. You can then map the Card ID from the **View publish** page within **Publish Reports** to the Card identity column in the report output to find the engagement of your published report card.
+
+:::image type="content" source="../images/publish-reports-view-publish.png" alt-text="Screenshot that shows the view publish page.":::
+
+## Administrative capabilities
+
+### VFAM
+
+Insights admins can manage which analysts are enabled to publish reports by creating Viva Feature Access Management policies. By default, there are no policies set, so all analysts can publish reports and manage them. 
+
+To change this default, Insights admins can create new policies to allow them to manage this feature. [Use these steps to manage access policies](/viva/feature-access-management). The FeatureId is **AnalystReportPublish** and the corresponding ModuleID is **VivaInsights** in VFAM.
+
+Examples of policies might look like: 
+
+* Enable publishing for all analysts (default)
+
+* Enable publishing for all analysts, except for specific ones
+
+* Disable publishing for all analysts, except for specific ones
+
+* Disable publishing for all analysts
+
+[Learn more about VFAM policies](/viva/feature-access-management).
+
+### Unified audit log  
+
+Publishing related actions are captured in the [Unified Audit Log](/purview/audit-log-activities).
+
+| Friendly name | Operation | Description |
+|---|---|---|
+| Publish Report | PublishReport | Analyst published a report |
+| Remove Published Report | RemovedPublishedReport | Analyst removed an actively published report |
