@@ -21,17 +21,17 @@ audience: Admin
 
 The Publish reports feature lets you share insights and reports directly with leaders, decision-makers, or even an entire organization in the recipient’s Viva Insights app. This helps to streamline the communication process between analysts and leadership, ensuring that organizational insights and data are delivered effectively alongside other Viva Insights content.
 
-A “report” refers to any analyst-created dashboard that includes Viva Insights metrics, though it might also feature other types of metrics like surveys or Copilot metrics. Typically, this dashboard is a Power BI, but other formats are possible. You might have already shared this report via email, but with this feature you can publish it seamlessly within Viva Insights.
+A "report" refers to any analyst-created dashboard that includes Viva Insights metrics, though it might also feature other types of metrics like surveys or Copilot metrics. Typically, this dashboard is a Power BI, but other formats are possible. You might have already shared this report via email, but with this feature you can publish it seamlessly within Viva Insights.
 
-Here’s a few more details about how it works:
+Here's a few more details about how it works:
 
 * With this feature, you publish your report as a prominently displayed card on the recipient’s Viva Insights home page.
 
-* We’ll help you create the card, which includes a title, description, and a link to your report.
+* We'll help you create the card, which includes a title, description, and a link to your report.
 
-* You select the card’s recipient(s), and specify how long you want it to be published.
+* You select the card's recipients, and specify how long you want it to be published.
 
-* After publishing, cards always appear at the top of recipient’s home page, and you can track the impact using their unique card IDs.
+* After publishing, cards always appear at the top of recipient's home page, and you can track the impact using their unique card IDs.
 
 ## Prerequisite
 
@@ -47,7 +47,7 @@ You can access this feature within the advanced insights app.
 
 ## Publish reports landing page
 
-This page displays all the publishes within the past year from the partition, regardless of their state.  From this page, you can manage your previous publishes, as well as publish a new report.
+This page displays all the publishes within the past year from the partition, regardless of their state.  From this page, you can manage your previous publishes, and publish a new report.
 
 When viewing existing publishes, you can see details on the author, publish name, publish date, end date, status, and actions.
 
@@ -60,7 +60,7 @@ When viewing existing publishes, you can see details on the author, publish name
 | Publish date | The date the publish was made. |
 | End date | The date recipients will no longer be able to see this publish. The end date is selected by the publisher at the time of publish. |
 | Status | The current state of the publish. It can be one of five values:  <br><br /><li> **Publishing**: The state of the report immediately after publishing. This state will generally exist for up to 10 minutes as the system delivers the publish to recipients.  <li>**Published**: The report is currently available for recipients to view in their Viva Insights app. <li>**Ended**: The report reached its scheduled end time, and is no longer available for recipients to view in their Viva Insights app. <li>**Removed**: Before a report reached its scheduled end date, an analyst removed a publish so recipients can no longer view it in their Viva Insights app. <li>**Failed**: The report was unable to be published due to system errors. |
-| Actions | For any publish in the list, there are a set of available actions:   <br><br /><li>**View publish**: This is available for all publishes and lets you see the details of a publish. <li>**Remove publish**: This is only available for actively published reports. This will remove a publish so that it’s no longer available for recipients to view in their Viva Insights app. The status will change to **Removed**. <li>**Re-publish**: This is only available for failed reports. This attempts to re-publish a failed report.|
+| Actions | For any publish in the list, there is a set of available actions:   <br><br /><li>**View publish**: This is available for all publishes and lets you see the details of a publish. <li>**Remove publish**: This is only available for actively published reports. This removes a publish so that it’s no longer available for recipients to view in their Viva Insights app. The status changes to **Removed**. <li>**Re-publish**: This is only available for failed reports. This attempts to republish a failed report.|
 
 ## How to publish a new report
 
@@ -68,7 +68,7 @@ Under the **Analysis** tab in the advanced insights app, select **Publish report
 
 ### Create your card
 
-The card you create is what recipients will see on their Viva Insights app homepage.  Fill out the details for this card and ensure it looks accurate via the card preview before publishing. You’re responsible for the content that appears on your published cards.
+The card you create is what recipients see on their Viva Insights app homepage.  Fill out the details for this card and ensure it looks accurate via the card preview before publishing. You’re responsible for the content that appears on your published cards.
 
 * **Report Link**: Provide the URL where the report can be accessed.
 
@@ -82,17 +82,17 @@ The card you create is what recipients will see on their Viva Insights app homep
 
     * If you're publishing a Power BI report, consider adding [row-level security](/fabric/security/service-admin-row-level-security) to it if you want viewers to only see a subset of the data that is applicable to them.
 
-* **Card Title**: Choose a concise and descriptive title for your report. This can’t be empty and must be less than 100 characters.
+* **Card Title**: Choose a concise and descriptive title for your report. This can’t be empty and must be fewer than 100 characters.
 
-* **Publisher Name**: Keep your name or update it to reflect the entity publishing the report. This can’t be empty and must be less than 100 characters.
+* **Publisher Name**: Keep your name or update it to reflect the entity publishing the report. This can’t be empty and must be fewer than 100 characters.
 
-* **Description**: Write a summary of the report's content and its relevance to the target audience. This can’t be empty and must be less than 500 characters.
+* **Description**: Write a summary of the report's content and its relevance to the target audience. This can’t be empty and must be fewer than 500 characters.
 
 Ensure this content looks accurate by reviewing the preview on the right side of the page. 
 
 Here's an example:
 
-Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It does not have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card will look when it’s published to  your recipients with the Preview.
+Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It doesn't have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card looks when it’s published to  your recipients with the Preview.
 
 :::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page.":::
 
