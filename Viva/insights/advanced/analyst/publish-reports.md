@@ -96,7 +96,7 @@ Let's say you want to publish your Hybrid workplace dashboard. This dashboard is
 
 :::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page.":::
 
-### Select target audience
+#### Select target audience
 
 >[!IMPORTANT]
 > Recipients need to have the Insights app enabled but don’t need a Viva Insights license. The recipient does not need to be within your partition and can be anyone in your organization who fits the above criteria.
