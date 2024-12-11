@@ -53,7 +53,7 @@ For information about using Viva Engage files stored in SharePoint, see the foll
 
 For network and tenant administrators:
 
-- SharePoint has a rich set of security and compliance features that apply to files uploaded in Viva Engage for Microsoft 365 connected Viva Engage groups, including eDiscovery, data loss protection, and in-geo residence for files at rest.  
+- SharePoint has a rich set of security and compliance features that apply to files uploaded in Viva Engage for Microsoft 365 connected Viva Engage groups. Features include eDiscovery, data loss protection, and in-geo residence for files at rest.  
 
 For end users:
   
@@ -67,9 +67,9 @@ For end users:
   
 ## How to restore a Microsoft 365 group or document library that backs a connected community
 
-Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when ithe group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
+Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
 
-To restore a deleted group, contact your administrator, Help desk, IT, or technical support department.For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide). 
+To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide). 
 
 To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
 
@@ -147,7 +147,7 @@ The following table shows how each type of guest can access files uploaded in Vi
 
 | Type of user | Access to group files in Viva Engage | Access to group files in SharePoint |
 |----------|----------|----------|
-|**Conversation-level guest that is in your network**|**Private group**: Can view files that have been shared in the conversation, but can't upload files.<br/>**Public group**: Can view, edit, and upload files.|Conversation level guests can't access any files saved in SharePoint nor upload any files. If you want to enable access to specific files in the conversation, add them as an Azure B2B guest on the Office 365 tenant. File upload isn't permitted.|
+|**Conversation-level guest that is in your network**|**Private group**: Can view files shared in the conversation, but can't upload files.<br/>**Public group**: Can view, edit, and upload files.|Conversation level guests can't access any files saved in SharePoint nor upload any files. If you want to enable access to specific files in the conversation, add them as an Azure B2B guest on the Office 365 tenant. File upload isn't permitted.|
 |**Network-level guest that is also an Azure B2B guest, and also a member of the group in Microsoft 365**|Can view, edit, and upload files.|These Azure B2B guests can view, upload, or edit files from the SharePoint Document library only. File access from Viva Engage isn't permitted.|
 |**Azure B2B guest, but not a member of the group<br/>Network-level guest<br/>Conversation-level guest that isn't in your network**|Automatic file access isn't allowed. These users can request access to specific files.<br/>Can't upload files.|Automatic file access isn't permitted. Guests can request access to specific files. File upload isn't permitted.|
 |**Network-level guest, but not Azure B2B guest**|Automatic file access isn't allowed. A guest must become an Azure B2B guest and a member of the group in Microsoft 365. Alternatively, other group members can grant access to specific files or the entire document library through one of many SharePoint external sharing methods.|No automatic access for network level guests to Viva Engage files saved in SharePoint. If you want to enable access to specific files, add them as an Azure B2B guest on the Office 365 tenant. For more information, see [Microsoft Entra B2B documentation](/azure/active-directory/b2b/). If guests need to upload files to a specific group from SharePoint or have automatic access to files uploaded to SharePoint, add them as a group member in SharePoint.|
@@ -176,7 +176,7 @@ For more information about Microsoft Entra B2B guests, see [Guest access in a Mi
     > [!NOTE]
     > Microsoft 365 apps and services doesn't support Internet Explorer 11 as of August 17, 2021. (Microsoft Teams doesn't support Internet Explorer 11 earlier, as of November 30, 2020.) [Learn more](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666). Note that Internet Explorer 11 remains a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
 
-    When a token refresh call fails, users will see:
+    When a token refresh call fails, users see:
 
     - On the Viva Engage page for a connected group, Microsoft 365 Resources are dimmed
 
@@ -194,6 +194,6 @@ For more information about Microsoft Entra B2B guests, see [Guest access in a Mi
 
         Include **engage.cloud.microsoft** and related URLs as a part of trusted zone. For more information, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-    - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, additional effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
+    - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, more effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
 
     - Users shouldn’t access Viva Engage using incognito or InPrivate mode or equivalent modes in other browsers.
