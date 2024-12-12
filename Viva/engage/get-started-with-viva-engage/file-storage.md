@@ -21,7 +21,7 @@ search.appverid:
 
 # Viva Engage file storage overview
 
-Files uploaded to posts in Viva Engage networks in Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community; storyline posts are stored in a hidden library in the creator’s OneDrive.
+In Microsoft 365, files uploaded to posts in Viva Engage networks are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator’s OneDrive.
 
 - Learn about [File Storage for storyline posts](https://learn.microsoft.com/viva/engage/eac-storyline#file-storage-for-storyline)
 - Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/viva/engage/engage-microsoft-365-groups)
@@ -40,11 +40,10 @@ An exception exists to the preceding rule. When the Viva Engage network isn't co
 - Viva Engage basic networks.
 
 <!-- Links in the short bulleted list to be hidden but keep for possible future use per request-->
-
 <!--
 For information about using Viva Engage files stored in SharePoint, see the following articles:
 
- - [Where are my Viva Engage files stored?](https://support.microsoft.com/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
+- [Where are my Viva Engage files stored?](https://support.microsoft.com/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
 - [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87) 
 -->
