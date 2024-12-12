@@ -19,14 +19,14 @@ ms.date: 12/12/2024
 
 # Change survey item IDs for expired survey cycles
 
-Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. When a survey is retired, you can still use the data for an item from that survey as a comparison in a new survey which uses the identical item by changing the item ID. 
+Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. You can still use item data from a retired survey as a comparison in a new survey which uses the identical item. You need to change the item ID. 
 
 > [!IMPORTANT]
 > The term "survey item" refers to any *question* or *statement* posed to a survey taker. 
 
 ## Viewing the survey item ID
 
-You need to know if any items from an expired survey are still being used and then compare their IDs.
+You need to know if any items from an expired survey are being used and then compare their IDs.
 
 There are two ways to view an item ID:
 
