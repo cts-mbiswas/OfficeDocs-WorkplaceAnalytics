@@ -1,6 +1,6 @@
 ---
 title: Set up Focus Area periods for a Viva Glint survey
-description: Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from the time the Focus Area is created through when action taking should be completed.. 
+description: Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from Focus Area creation through expected action taking completion. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -38,7 +38,7 @@ Managing Focus Area periods allow admins to determine how often to survey. From 
 1. Select a cadence: monthly, quarterly, semi-annually, annually, weekly.
 1. Name the period.
 1. Choose a start date. 
-1. Choose an end date. The end date is the date that all actions are expected to be completed by. Managers see this expected date on their action plan.
+1. Choose an end date. The end date is the date of expected completion. Managers see this date on their action plan.
 1. **Enable** the Focus Area period.
 1. Select **Save Changes.**
 
