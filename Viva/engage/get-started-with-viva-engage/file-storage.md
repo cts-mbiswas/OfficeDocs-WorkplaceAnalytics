@@ -29,7 +29,7 @@ Files attached to posts in Viva Engage networks connected to Microsoft 365 are s
 - Viva Engage networks that don't enforce Office 365 identity  
 - Viva Engage basic networks.
 
-Learn more about file stroage in communities that connect to Microsoft 365 groups:
+Learn more about file storage in communities that connect to Microsoft 365 groups:
 
 - Learn about [File Storage for storyline posts](https://learn.microsoft.com/viva/engage/eac-storyline#file-storage-for-storyline)
 - Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/viva/engage/engage-microsoft-365-groups)
