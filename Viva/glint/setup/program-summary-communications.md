@@ -94,7 +94,7 @@ Use the **Pencil** symbol to open the window and then:
 
 ### Add survey reminders
 
-The dropdown menu from the **Add survey Reminder** button lets admins to add reminders. Reminders display on the Communications page with an alarm symbol.
+The dropdown menu from the **Add survey Reminder** button lets admins add reminders. Reminders display on the Communications page with an alarm symbol.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
