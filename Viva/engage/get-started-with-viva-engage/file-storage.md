@@ -21,23 +21,32 @@ search.appverid:
 
 # Viva Engage file storage overview
 
-In Microsoft 365, files uploaded to posts in Viva Engage networks are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator’s OneDrive.
+Files attached to posts in Viva Engage networks connected to Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community. Storyline posts are stored in a hidden library in the creator’s OneDrive.
+
+**Exception**: When the Viva Engage network isn't connected to Microsoft 365 groups, files uploaded to posts are stored directly in Viva Engage cloud storage. This includes the following:  
+
+- Microsoft 365 tenants that have more than one Viva Engage network  
+- Viva Engage networks that don't enforce Office 365 identity  
+- Viva Engage basic networks.
+
+Learn more about file stroage in communities that connect to Microsoft 365 groups:
 
 - Learn about [File Storage for storyline posts](https://learn.microsoft.com/viva/engage/eac-storyline#file-storage-for-storyline)
 - Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/viva/engage/engage-microsoft-365-groups)
 - Learn how to [Enable or Disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
 > [!NOTE]
-> If users upload files in connected Viva networks, policies in SharePoint document libraries take precedence over Viva Engage upload admin configurations.
+> Policies in SharePoint's document libraries take precedence over settings for files, images and videos in Viva Engage.
 
-> [!Important]
-> **Avoid using SharePoint to modify, replace, delete, move, or rename** the folder structure (**Documents > Apps > Viva Engage**), documents, and rich media for your Viva Engage network. Changing these elements in SharePoint will break the front-end experience of posts, in communities, and in your storyline.
+## Benefits of Sharepoint Storage
 
-An exception exists to the preceding rule. When the Viva Engage network isn't connected to Microsoft 365 groups, files uploaded to posts are stored directly in Viva Engage cloud storage. This includes the following:  
+For network and tenant administrators, SharePoint has a rich set of security and compliance features that apply to uploaded files in Viva Engage, for Microsoft 365-connected Viva Engage groups. Features include eDiscovery, data loss protection, and in-geo residence for files at rest.  
 
-- Microsoft 365 tenants that have more than one Viva Engage network  
-- Viva Engage networks that don't enforce Office 365 identity  
-- Viva Engage basic networks.
+End users work with the familiar SharePoint user interface for file navigation and management, with the following capabilities:
+
+- Use Microsoft Search for greater discoverability and easier access
+- Browse or search features in SharePoint and Delve to find and access files through Viva Engage, SharePoint, and other Microsoft 365 resources  
+- Enable offline access to files by syncing a SharePoint folders to a folder on their computer.  
 
 <!-- Links in the short bulleted list to be hidden but keep for possible future use per request-->
 <!--
@@ -48,47 +57,20 @@ For information about using Viva Engage files stored in SharePoint, see the foll
 - [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87) 
 -->
 
-## Benefits
+## Where are files stored in SharePoint?
 
-For network and tenant administrators:
+**Community**
+Files uploaded to community posts are stored in the SharePoint document library that backs up the community. You can access the library from two places: 
 
-- SharePoint has a rich set of security and compliance features that apply to files uploaded in Viva Engage for Microsoft 365 connected Viva Engage groups. Features include eDiscovery, data loss protection, and in-geo residence for files at rest.  
+**Files tab**: When the community admin enables the **Files** tab, you can access the document library by selecting it. 
+**Community resources**: When the community admin enables the Community resources widget, you can access the document library from the path **SharePoint library > Apps > Viva Engage**.  
 
-For end users:
-  
-- A familiar user interface for file navigation and management in SharePoint.
+> [!NOTE]
+> For communities residing in Yammer before it became Viva Engage, folders that store attachments to community posts are labeled **Yammer** instead of **Viva Engage**.
 
-- Greater discoverability and easier access through Microsoft search.
+## Storyline file storage
 
-    Users with appropriate permissions can find and access the files through Viva Engage, SharePoint, and other Microsoft 365 resources by using browse or search in SharePoint and Delve.  
-
-- Offline access to files by syncing a SharePoint folders to a folder on their computer.  
-  
-## How to restore a Microsoft 365 group or document library that backs a connected community
-
-Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
-
-To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
-
-To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
-
-### Delete files uploaded to deleted community or storyline posts 
-
-If a file or rich media gets removed from a post, it isn't removed from SharePoint or OneDrive. They remain shared and accessible to anyone with access to that community or storyline.  
-
-To fully delete the file, ensure the attachment is removed from the post or from the reply. If the post or reply is already published, the author or a community admin can select the overflow menu (...) and then choose **Edit**. You can also delete the entire post or reply. Then, perform one of the following deletion tasks in SharePoint: 
-
-**To delete files removed from a post or a reply in a community**:
-
-1. Open the SharePoint library backing the community. You can do this one of two ways, depending on your environment:
-    - Select the Files tab on the community;
-    - Select **SharePoint Library** from the **Community resources** module in the community’s right navigation. 
-2. Navigate to the **Documents > Apps > Viva Engage** folder. 
-3. Locate the file previously attached to the post and select **Delete**. 
-
-**To delete files removed from a post or a reply on a storyline**: 
-
-Files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example:  
+Files uploaded to storyline posts are stored in a hidden library in the storyline’s owner OneDrive. The Microsoft 365 user experience doesn't provide an entry point to this location, but you can access it through a URL resembling the following example:  
 
 `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline` 
 
@@ -106,9 +88,54 @@ To determine the precise URL for a user's storyline page, follow these steps:
 
 5. Press **Enter**. The library appears.
 
-6. Open the **Attachments > Storyline** folder. The URL to the folder where storyline files are saved resembles this example
+[See this page to find out how to enable and disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
-    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
+> [!Important]
+> **Avoid using SharePoint to modify, replace, delete, move, or rename** the folder structure (**Documents > Apps > Viva Engage**), documents, and rich media for your Viva Engage network. Changing these elements in SharePoint will break the front-end experience of posts, in communities, and in your storyline.  
+
+## Troubleshooting attachment issues 
+
+### 1. How to restore a Microsoft 365 group or document library that backs a connected community
+
+Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
+
+To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
+
+To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
+
+### 2. How to delete attached files that belong to deleted community or storyline posts 
+
+If a file or rich media gets removed from a post, it isn't removed from SharePoint or OneDrive. They remain shared and accessible to anyone with access to that community or storyline.  
+
+To fully delete the file, ensure the attachment is removed from the post or from the reply. If the post or reply is already published, the author or a community admin can select the overflow menu (...) and then choose **Edit**. You can also delete the entire post or reply. Then, perform one of the following deletion tasks in SharePoint: 
+
+#### 2.1 To delete files removed from a post or a reply in a community
+
+1. Open the SharePoint library backing the community. You can do this one of two ways, depending on your environment:
+    - Select the Files tab on the community;
+    - Select **SharePoint Library** from the **Community resources** module in the community’s right navigation. 
+2. Navigate to the **Documents > Apps > Viva Engage** folder. 
+3. Locate the file previously attached to the post and select **Delete**. 
+
+#### 2.2 To permanently delete files removed from a post or a reply on a storyline 
+
+Files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example:  
+
+1. Open the user's OneDrive in a browser. 
+
+2. Note the URL to the user's OneDrive. 
+
+3. Locate the user identifier, which is the part of the URL immediately that follows `my.sharepoint.com/personal/`.
+
+4. Replace everything after the profile identifier and the backslash plus VivaEngage, without a space, case insensitive. The resulting URL resembles this example:
+
+    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage` 
+
+5. Press **Enter**. The library appears.
+
+6. Open the **Attachments > Storyline** folder. The URL to the folder where storyline files are saved resembles this example:
+
+`https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
 
 7. Locate the previously attached file and select **Delete**.
 
@@ -117,7 +144,7 @@ Files that users upload in Microsoft 365 connected groups are saved in the **App
  > [!NOTE]
  > We recommend that you do not delete, move, or rename files in the **Apps > Viva Engage** subfolder.
 
-## How to resolve images that appear blank in Viva Engage conversation threads
+### 3. How to resolve images that appear blank in Viva Engage conversation threads
 
 Files attached to community posts are stored in the SharePoint’s document library that backs up the community. Files are stored in the path **Documents > Apps > Viva Engage**.  
 
@@ -138,7 +165,7 @@ To find the document library that backs up the community, use the [Graph Explore
 - Learn [How Yammer evolved to Viva Engage](https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825) 
 
 > [!Important]
-> For communities created before March 2023, the SharePoint document libraries are named **Viva Engage**.
+> In communities created before March 2023, the SharePoint document libraries are named **Viva Engage**.
   
 ## Guest access to files
 
