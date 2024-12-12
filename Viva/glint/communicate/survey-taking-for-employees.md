@@ -30,7 +30,7 @@ Use this [email template](#sample-template) for your first survey communications
   - Timing
   - Ease and confidentiality of participation
   - Your organizational culture, values, and brand
-- **To reduce the burden on Human Resources by providing answers to anticipated questions or challenges**
+- **To reduce the burden on Human Resources by providing answers to anticipated questions or challenges**.
 
 ### Sample template
 
