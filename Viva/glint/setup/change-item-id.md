@@ -43,7 +43,7 @@ From the admin dashboard, select **Configure** and then **Question Library**.
 3. Select the question row to reveal the **Edit Question** slider window.
 4. You see the **Question ID** toward the top of the panel. The ID applies to all active, upcoming, and completed surveys.
 
-:::image type="content" source="../../media/glint/setup/view-question-id.png" alt-text="Screenshot of an item ID on the Questions page of Program Summary.":::
+   :::image type="content" source="../../media/glint/setup/view-question-id.png" alt-text="Screenshot of an item ID on the Questions page of Program Summary.":::
 
 ## Edit an expired ID to use in an upcoming cycle
 
@@ -55,7 +55,7 @@ When changing a Question ID, you chose a question from the survey program that y
 1. From the admin dashboard, select **Configure** and then **Survey Programs**.
 1. Select the **Completed surveys** tab and then the survey. Be sure the survey status shows *Completed*.
 1. Now select **Survey Questions.**
-1. On the **Questions** page, hover over an item row to reveal the ellipses. Select **Change Question ID.** 
+1. On the **Questions** page, hover over an item row to reveal the ellipsis. Select **Change Question ID.** 
    
    :::image type="content" source="../../media/glint/setup/change-question-id.png" alt-text="Screenshot of the dropdown box for completed survey cycles.":::
    
