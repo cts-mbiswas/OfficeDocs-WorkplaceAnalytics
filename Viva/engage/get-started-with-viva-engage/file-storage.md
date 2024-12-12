@@ -23,8 +23,8 @@ search.appverid:
 
 Files uploaded to posts in Viva Engage networks in Microsoft 365 are stored in SharePoint. Files in community posts are stored in the document library that backs up the community; storyline posts are stored in a hidden library in the creator’s OneDrive.
 
-- Learn about [File Storage for storyline posts](https://learn.microsoft.com/en-us/viva/engage/eac-storyline#file-storage-for-storyline)
-- Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/en-us/viva/engage/engage-microsoft-365-groups)
+- Learn about [File Storage for storyline posts](https://learn.microsoft.com/viva/engage/eac-storyline#file-storage-for-storyline)
+- Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/viva/engage/engage-microsoft-365-groups)
 - Learn how to [Enable or Disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
 > [!NOTE]
@@ -44,9 +44,9 @@ An exception exists to the preceding rule. When the Viva Engage network isn't co
 <!--
 For information about using Viva Engage files stored in SharePoint, see the following articles:
 
- - [Where are my Viva Engage files stored?](https://support.microsoft.com/en-us/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
+ - [Where are my Viva Engage files stored?](https://support.microsoft.com/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
-- [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/en-us/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87?ui=en-us&rs=en-us&ad=us) 
+- [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87) 
 -->
 
 ## Benefits
@@ -69,9 +69,9 @@ For end users:
 
 Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
 
-To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide). 
+To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide). 
 
-To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
+To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
 
 ### Delete files uploaded to deleted community or storyline posts 
 
@@ -130,11 +130,11 @@ If the library location changes, files and images attached to community posts co
 
 3. Ensure the permissions on the official **Apps/Viva Engage** folder are the default ones. 
 
-To find the document library that backs up the community, use the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) API `https://graph.microsoft.com/v1.0/groups/{office_365_group_id}/drive/special/approot/` and change the `office_365_group_id` attribute in the API call to the community ID. The following example illustrates:
+To find the document library that backs up the community, use the [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) API `https://graph.microsoft.com/v1.0/groups/{office_365_group_id}/drive/special/approot/` and change the `office_365_group_id` attribute in the API call to the community ID. The following example illustrates:
 
 `https://graph.microsoft.com/v1.0/groups/contoso_program_managers_group/drive/special/approot/`
 
-- Learn [How do I find a community's group feed ID in Viva Engage](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f#:~:text=To%20find%20the%20group%20ID%20for%20a%20Viva,an%20online%20tool%20to%20decode%20base%2064.%20) 
+- Learn [How do I find a community's group feed ID in Viva Engage](https://support.microsoft.com/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f#:~:text=To%20find%20the%20group%20ID%20for%20a%20Viva,an%20online%20tool%20to%20decode%20base%2064.%20) 
 
 - Learn [How Yammer evolved to Viva Engage](https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825) 
 
