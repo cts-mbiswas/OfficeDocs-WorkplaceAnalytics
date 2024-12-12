@@ -43,7 +43,7 @@ From the admin dashboard, select **Configure** and then **Question Library**.
 3. Select the question row to reveal the **Edit Question** slider window.
 4. You see the **Question ID** toward the top of the panel. The ID applies to all active, upcoming, and completed surveys.
 
-:::image type="content" source="../../media/glint/setup/question-id-view.png" alt-text="Screenshot of an item ID on the Questions page of Program Summary.":::
+:::image type="content" source="../../media/glint/setup/view-question-id.png" alt-text="Screenshot of an item ID on the Questions page of Program Summary.":::
 
 ## Edit an expired ID to use in an upcoming cycle
 
