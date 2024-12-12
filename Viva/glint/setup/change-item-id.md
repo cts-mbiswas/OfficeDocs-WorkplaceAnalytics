@@ -14,54 +14,56 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/21/2024
+ms.date: 12/12/2024
 ---
 
 # Change survey item IDs for expired survey cycles
 
-> [!IMPORTANT]
-> The platform feature allowing admins to change survey item ID numbers releases on March 9, 2024.
-
-Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. When a survey is retired, you can still use the data for an item from that survey as a comparison in a new survey which uses the identical item by changing the item ID. 
+Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. You can still use item data from a retired survey as a comparison in a new survey which uses the identical item. You need to change the item ID. 
 
 > [!IMPORTANT]
 > The term "survey item" refers to any *question* or *statement* posed to a survey taker. 
 
 ## Viewing the survey item ID
 
-You need to know if any items from an expired survey are still being used and then compare their IDs.
+You need to know if any items from an expired survey are being used and then compare their IDs.
 
 There are two ways to view an item ID:
 
--	From the Question Library feature
-  - From the admin dashboard, select **Configure** and then **Question Library**.
+### View the item ID from the Question Library
 
-    :::image type="content" source="../../media/glint/setup/question-id-view.png" alt-text="Screenshot of how an item ID is displayed.":::
+From the admin dashboard, select **Configure** and then **Question Library**.
 
--	The item ID can also be seen within the *Questions* page in Program Summary.
-  - From the admin dashboard, select **Configure** and then **Survey Programs**.
-  - Within the survey cycle, navigate to the **Questions** page in *Program Summary*. Select **Edit Question** and a slider window opens.
-  - You'll see the *Question ID* above the *Language* section. This ID applies to all active, upcoming, and completed surveys. 
+:::image type="content" source="../../media/glint/setup/question-id-view.png" alt-text="Screenshot of how an item ID in the Question Library.":::
 
-> [!NOTE]
-> The Question ID isn't editable for active surveys.
-
-## Editing an expired ID for use in an upcoming cycle
-
-> [!CAUTION]
-> Change an ID only if you’ve discovered that survey trends are broken because one or more different items IDs were used in this cycle – this means the question/item is identical, but the ID is not. 
-
+### View the Item ID from the Questions page 
 
 1. From the admin dashboard, select **Configure** and then **Survey Programs**.
-1. Selected the **Completed surveys** tab and then the **Questions** row to view the questions from that survey.
-1. On the *Questions* page, hover over the ellipses to display the dropdown menu. Select **Change Question ID** and a *Change Question ID* dialog box displays.
+2. Within the survey cycle, in the **Program Summary** section, navigate to the **Questions** page.
+3. Select the question row to reveal the **Edit Question** slider window.
+4. You see the **Question ID** toward the top of the panel. The ID applies to all active, upcoming, and completed surveys.
 
+   :::image type="content" source="../../media/glint/setup/view-question-id.png" alt-text="Screenshot of an item ID on the Questions page of Program Summary.":::
+
+## Edit an expired ID to use in an upcoming cycle
+
+When changing a Question ID, you chose a question from the survey program that you want to use instead of it. Question IDs aren't editable for active surveys.
+
+> [!CAUTION]
+> Change an ID only if you’ve discovered that survey trends are broken -  the items are identical, but the IDs are not. 
+
+1. From the admin dashboard, select **Configure** and then **Survey Programs**.
+1. Select the **Completed surveys** tab and then the survey. Be sure the survey status shows *Completed*.
+1. Now select **Survey Questions.**
+1. On the **Questions** page, hover over an item row to reveal the ellipsis. Select **Change Question ID.** 
+   
+   :::image type="content" source="../../media/glint/setup/change-question-id.png" alt-text="Screenshot of the dropdown box for completed survey cycles.":::
+   
    > [!IMPORTANT]
-   > If your survey items are translated into different languages, export the survey details before proceeding, so you’ll have a record of your translations.
+   > If your survey items are translated into different languages, export the survey details before proceeding, so there is a record of your translations.
 
-4. Be sure the **Current question type, name and ID** are as expected.
-1. Choose an item from the survey program that you want to use from the dropdown box.
-1. Select **Change** to commit your selection. 
-1. When the dialog box closes, select **Save Changes**. 
-1. After these steps are complete, you'll see a *Changes Pending* notification on the item line. 
-1. Select **Save**.
+1. The **Change Question ID** dialog box displays.
+   
+   :::image type="content" source="../../media/glint/setup/change-id-box.png" alt-text="Screenshot of the Change Question ID dialog box.":::
+   
+1. Follow the onscreen guidance and then select **Change.**
