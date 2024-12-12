@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/09/2024
+ms.date: 12/12/2024
 ---
 
 # Communications setup in Program Summary
@@ -39,7 +39,11 @@ There are three sections to set up:
 Send survey invites and reminders between the times that you select. Your organization's default time zone is selected in [General Settings](manage-general-settings.md#company-information). If your organization chooses to [send emails based on users' time zones](time-zones.md), the text in this setting reflects that.
 
 > [!IMPORTANT]
-> Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window.
+> Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window. 
+>
+> For example, if your organization plans to send invites to 100,000 employees, extend your delivery window to ten hours to allow all emails to deliver on the survey start day.
+>
+> For very large organizations and distribution lists (more than 250,000 employees), some emails may be pushed to the following day.
 
 ## Email Settings
 
