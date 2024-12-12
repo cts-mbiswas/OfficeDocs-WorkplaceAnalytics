@@ -114,10 +114,10 @@ To set up the results notification email:
 1. From the admin dashboard, go to **Configuration** and choose **Survey Programs**.
 1. Select a survey and go to the **Communications** section in **Program Summary**.
 1. Select the **Edit & Preview** option on the **Survey End** email.
-   1. This email is turned off by default.
+   - This email is turned off by default.
 1. In the edit pane that appears, switch **Send notification** to **On**.
 2. In the **Send** field, enter a number of days after survey end date to send the email.
-   1. The default is three (3) and the maximum is 30 days.
+   - The default is three (3) and the maximum is 30 days.
 2. Select **Save Changes** in the top right of the edit pane.
 
 > [!IMPORTANT]
