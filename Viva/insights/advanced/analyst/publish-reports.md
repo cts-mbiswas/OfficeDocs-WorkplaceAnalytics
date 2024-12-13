@@ -77,8 +77,8 @@ The card you create is what recipients see on their Viva Insights app homepage. 
 
     * If you're publishing a Power BI report, ensure that you have already shared it with your desired audience so they can access the content once you publish. [Learn more about sharing Power BI reports](/power-bi/collaborate-share/service-share-dashboards).  
 
-    >[!IMPORTANT]
-    > This feature does not filter or edit the data based on viewer, so whatever you publish is published as-is to all recipients.
+      >[!IMPORTANT]
+      > This feature does not filter or edit the data based on viewer, so whatever you publish is published as-is to all recipients.
 
     * If you're publishing a Power BI report, consider adding [row-level security](/fabric/security/service-admin-row-level-security) to it if you want viewers to only see a subset of the data that is applicable to them.
 
@@ -94,7 +94,7 @@ Here's an example:
 
 Let's say you want to publish your Hybrid workplace dashboard. This dashboard is saved to your Power BI workspace and has already been shared with your desired audience. It doesn't have row-level security implemented, so recipients see all the data in the report. You can create your card like the one below and publish it under your team name, HR Analytics, rather than using your own name as publisher. You can see how this card looks when it’s published to  your recipients with the Preview.
 
-:::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page.":::
+:::image type="content" source="../images/publish-reports-create-card.png" alt-text="Screenshot that shows the create card page." lightbox="../images/publish-reports-create-card.png":::
 
 #### Select target audience
 
@@ -119,7 +119,7 @@ Continuing our example:
 
 Let’s say you want to publish your Hybrid workplace dashboard to your Engineering function. You can publish to that audience based on your available organizational attributes. You can then select this card to be published for 90 days and provide a publish name you can use to find this publish later on the Publish reports landing page.
 
-:::image type="content" source="../images/publish-reports-target-audience.png" alt-text="Screenshot that shows the page to select a target audience.":::
+:::image type="content" source="../images/publish-reports-target-audience.png" alt-text="Screenshot that shows the page to select a target audience." lightbox="../images/publish-reports-target-audience.png":::
 
 #### Publish 
 
@@ -143,7 +143,7 @@ You can learn how recipients are engaging with your published report card by usi
 
 Navigate to **Create analysis** and select the **Custom query** filter on the top. From there, find the **Custom Recommendations** card and select **Set up analysis**.  
 
-:::image type="content" source="../images/publish-reports-create-analysis.png" alt-text="Screenshot that shows where to find the Custom Recommendations query.":::
+:::image type="content" source="../images/publish-reports-create-analysis.png" alt-text="Screenshot that shows where to find the Custom Recommendations query." lightbox="../images/publish-reports-create-analysis.png":::
 
 In the metrics section, add relevant metrics from the Custom recommendation activity metrics dropdown. Then, run the query.  
 
