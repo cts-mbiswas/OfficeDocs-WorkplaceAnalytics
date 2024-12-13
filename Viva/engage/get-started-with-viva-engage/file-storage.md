@@ -57,19 +57,18 @@ For information about using Viva Engage files stored in SharePoint, see the foll
 - [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87) 
 -->
 
-## Where are files stored in SharePoint?
+## Storage locations of community and storyline files
 
 **Community**
 Files uploaded to community posts are stored in the SharePoint document library that backs up the community. You can access the library from two places: 
 
-**Files tab**: When the community admin enables the **Files** tab, you can access the document library by selecting it. 
-**Community resources**: When the community admin enables the Community resources widget, you can access the document library from the path **SharePoint library > Apps > Viva Engage**.  
+- **Files tab**: When the community admin enables the **Files** tab, you can access the document library by selecting it. 
+- **Community resources**: When the community admin enables the Community resources widget, you can access the document library from the path **SharePoint library > Apps > Viva Engage**.  
 
 > [!NOTE]
 > For communities residing in Yammer before it became Viva Engage, folders that store attachments to community posts are labeled **Yammer** instead of **Viva Engage**.
 
-## Storyline file storage
-
+**Storyline**
 Files uploaded to storyline posts are stored in a hidden library in the storyline’s owner OneDrive. The Microsoft 365 user experience doesn't provide an entry point to this location, but you can access it through a URL resembling the following example:  
 
 `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline` 
@@ -165,7 +164,7 @@ To find the document library that backs up the community, use the [Graph Explore
 - Learn [How Yammer evolved to Viva Engage](https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825) 
 
 > [!Important]
-> In communities created before March 2023, the SharePoint document libraries are named **Viva Engage**.
+> In legacy communities created before March 2023, the SharePoint document libraries are named **Yammer** instead of **Viva Engage**.
   
 ## Guest access to files
 
