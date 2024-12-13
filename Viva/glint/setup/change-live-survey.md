@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 12/10/2024
 ---
 
 # Make changes to a live Viva Glint survey
 
-Some elements of a live survey can be adjusted, but only make live edits when necessary.
+Some elements of a live recurring or ad hoc survey can be adjusted, but only make live edits when necessary.
 
 > [!IMPORTANT]
 > The term "item" refers to any question or statement posed in a Glint survey.
@@ -30,30 +30,22 @@ Preview your survey before launching. Then follow these practices:
 | --- | --- | 
 |**Don't stop the survey**|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
 |**Make email and reminder edits only at the cycle level**| Program level changes don't apply to a live survey.|
-|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
+|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical, or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits. </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
 |**Always Save and re-approve**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).|
 |**Make text changes uniformly**| Text changes need to be made across all languages included in the survey.|
 
-## Process to edit a survey item
+**Watch for this alert in Program Summary when editing a live survey:**
 
-There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard; doesn't require survey to go into unapproved state
--	From **Survey Programs, Live** 
--	From **Upcoming Surveys**
+:::image type="content" source="../../media/glint/setup/live-survey-alert.png" alt-text="Screenshot of alert in Program Summary." lightbox="../../media/glint/setup/live-survey-alert.png":::
 
-**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
-
-:::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
-
-### Scenarios and considerations for live survey changes 
+## Scenarios and considerations for live survey changes 
 
 Sometimes changing a live survey may be beneficial. 
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
-| Item text | The phrasing of an item needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a live survey are below.|
 | Adding or removing an item | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or *Employee Lifecycle program. |
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't yet been started. |
 
@@ -62,13 +54,13 @@ Sometimes changing a live survey may be beneficial.
 - **Language** - From languages prepopulated in the dropdown menu.
 - **Question Type** - Rating, multiple choice, open-ended.
 - **Reporting Label** - For easy identification of your item.
-- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequently affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
-- **Comment Placeholder Text**
-- **Leave your comments here** appears by default, but this text can be customized.**Rating Scale** - five (5) or seven (7) points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
-- Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
-- Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
+- **Comment Placeholder Text** - **Leave your comments here** appears by default, but this text can be customized.
+- **Rating Scale** - five (5) or seven (7) points
+  - Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
+  - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
+  - Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
 - **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback.
 
 Select **Save Changes** when editing is complete.
@@ -81,7 +73,7 @@ The information is broken out across **Program Summary** setup pages.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **Various** | You want to edit the **Program Name** or **Allow Survey Resubmission** | Edits are visible only to users who haven't started their survey. |
+| **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
@@ -96,62 +88,76 @@ The information is broken out across **Program Summary** setup pages.
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
-| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
+| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
 
 ## Items (Questions)
-
-[Read extended guidance on live survey item (question) edits here.](/viva/glint/setup/question-edit)
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
-| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program isn't affected by any edit.|
+| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. Live programs aren't affected by edits.|
 | **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle** program. |
-| **Item order** | The questions need to be reordered. | The newly edited item order is featured immediately on surveys that haven't been started. |
+| **Item order** | The questions need to be reordered. | Newly edited item order is featured immediately on surveys that haven't started. |
+
+> [!NOTE]
+> Changes to survey *sections* and survey *breaks* can't occur during a live cycle. They apply to upcoming cycles only.
 
 ### Admin process for editing a question during a live survey
 
 There are three entry points for editing a question:
--	From the Question Library on your admin dashboard (doesn't require survey to go into unapproved state)
+
+-	From the Question Library on your admin dashboard. This doesn't require survey to go into unapproved state.
 -	From the *Survey Programs, Live* section
 -	From the *Survey Programs, Upcoming* section
 
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
 
-### Inform survey takers of a live edit
+Hover over the **horizontal ellipsis** next to any survey item to select **Edit Question**.
 
-> [!IMPORTANT]
-> All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
-> <br>
-> They must also understand that if they retake a survey, their original answers are replaced.
+The Edit Question slider window includes these setup tabs:
+- Question Configuration
+- Associated Programs - again, the **Before you edit this question** dialog box informs whether this question is currently used in one or more live survey programs.
 
-**You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
--	Survey takers can use the link from their original survey invitation email to retake their survey.
--	[Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
-For participants who haven't started the survey, the survey automatically updates with the new version of all items and no notification is required.
+## Inform survey takers of a live edit
 
-### Confirm edits 
+After reviewing your edits to an item, select **Save**. The **Confirm your changes** dialog box displays.
 
-Review your edits to make sure your employees receive appropriate notice. 
- 
-1. Review the **Confirm your changes** window that opens.
+   :::image type="content" source="../../media/glint/setup/confirm-changes-2.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions." lightbox="../../media/glint/setup/confirm-changes-2.png":::
 
-   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
+1. In the **Confirm your changes** dialog box:
+   - If your organization uses Entra ID or personalized links for survey access, you can notify participants who have started or already completed the survey by checking the **Send an email notification about this change to participants who have already started or completed this survey** box.
+   - If your organization uses an attribute-based survey access, you must notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
 
-2. If everything is as expected, select **Confirm.**
+   > [!IMPORTANT]
+   > - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a live survey. They must also understand that if they retake their survey, all original answers are replaced.
+   > - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
+   > - For participants who haven't started the survey, the survey automatically updates with the new version of all items. No notification is required.
 
-3. A one-time notification confirms that your item is updated.
+2. Select **Confirm** in the dialog box or **Back** if you need to make more edits.
+
+3. A one-time notification banner confirms that your item is updated.
+
+### Associated programs
+
+A list of program names previously used or in use that include this survey item can be viewed here. You may see an alert cautioning you that this question is being used in one or more live surveys. 
+
+- If you don't want to make this change, choose **Cancel**.
+- You can edit language text, instruction text, and comment placeholder text only. Other fields are disabled and can't be edited until the survey is no longer live.
+- Make your changes and select **Save**.
+
+:::image type="content" source="../../media/glint/setup/change-live-q-tooltips.png" alt-text="Screenshot of warning and tips about editing a question during a live survey." lightbox="../../media/glint/setup/change-live-q-tooltips.png":::
 
 ## Reporting
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
+| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
-| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain ausers with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
+| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ## Communications
 

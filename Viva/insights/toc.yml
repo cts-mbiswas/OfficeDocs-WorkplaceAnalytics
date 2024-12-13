@@ -86,6 +86,8 @@ items:
             href: advanced/admin/org-data-overview.md
           - name: Prepare organizational data
             href: advanced/admin/prepare-org-data.md
+          - name: Upload and maintain organizational data through the admin center 
+            href: advanced/admin/upload-org-data-admin-center.md
           - name: Upload organizational data (first upload)
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
@@ -178,6 +180,8 @@ items:
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
             - name: Microsoft 365 Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+            - name: Copilot for Sales adoption report
+              href: advanced/analyst/templates/copilot-for-sales-adoption.md   
             - name: Copilot Business Outcome (Copilot Business Impact) report
               href: advanced/analyst/templates/copilot-business-impact.md   
             - name: Onboarding and development
@@ -230,6 +234,8 @@ items:
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
         - name: Microsoft 365 Copilot impact report
           href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+        - name: Copilot for Sales adoption report
+          href: advanced/analyst/templates/copilot-for-sales-adoption.md   
         - name: Import business data with a .csv file
           href: advanced/admin/import-business-data-csv.md
         - name: Import business data with Azure
