@@ -65,7 +65,7 @@ The Presentation Kit makes two Reflection Point pages available for managers. Th
 
 - **Section Name** - Customize or use the default
 
-Each of the following slides have prepopulated default text. You can customize the header and thought starter, using macro fields if desired. The presentation must include all the slides provided.
+Each of the following slides has prepopulated default text. You can customize the header and thought starter, using macro fields if desired. The presentation must include all the slides provided.
 
 - Thank You slide
 - High-Level Results slide
