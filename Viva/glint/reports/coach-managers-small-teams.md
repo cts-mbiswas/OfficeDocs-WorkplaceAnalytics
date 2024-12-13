@@ -21,7 +21,7 @@ ms.date: 12/13/2024
 
 Survey results in the Microsoft Viva Glint platform are available to managers as soon as one day after a survey closes. Read about [Live versus Phased access](/viva/glint/setup/live-versus-phased-access). 
 
-Hopefully your managers are eager to see their results, as are their employees. However, due to confidentiality thresholds set in the Viva Glint platform, some managers may not have enough team members overall or response rates to view their own team’s survey responses. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. [Broader Team Insights(BTI)](/../../viva/glint/reports/broader-team-insights) solves this issue.
+Hopefully your managers are eager to see their results, as are their employees. However, due to confidentiality thresholds set in the Viva Glint platform, some managers may not have enough team members overall or response rates to view their own team's survey responses. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. [Broader Team Insights(BTI)](/../../viva/glint/reports/broader-team-insights) solves this issue.
 
 >[!NOTE]
 > The Viva Glint admin sets the confidentiality threshold in the [**Reporting** section of **General Settings**](/../../viva/glint/setup/manage-general-settings#reporting).** 
@@ -38,15 +38,15 @@ Hopefully your managers are eager to see their results, as are their employees. 
 ### Examples
 
 A leader has four (4) direct reports, and each of those employees have six (6) direct reports:
-- Let’s say this leader had 100% participation across their larger team.
+- Let's say this leader had 100% participation across their larger team.
 - With 28 responses, they receive a report but can't filter that report to see their four (4) direct reports’ responses, since there are less than five (5).
 
 A manager has a team of more than five (5) employees but not all of them answer the survey or answer all of the survey items
 
  - Perhaps the team has 14 employees. If only four (4) of those employees answer the survey or only four (4) respond to a certain item, no data is shown.
- - In this case, the leader should still have an ACT Conversation with their direct reports using BTI results. In the *Acknowledge* portion of the [ACT conversation](/../../viva/glint/people-science/managers-using-act-conversations, the manager should talk to the team about which results might still be pertinent to them.
+ - In this case, the leader should still have an ACT Conversation with their direct reports using BTI results. In the *Acknowledge* portion of the [ACT conversation](/../../viva/glint/people-science/managers-using-act-conversations), the manager should talk to the team about which results might still be pertinent to them.
 
-** Conversations are meaningful even if they don't refer directly to a manager's own team results.""
+**Conversations are meaningful even if they don't refer directly to a manager's own team results.**
 
 The goal of feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involves a team in identifying actions to improve engagement. A limited view of results or BTI data can foster a rich team conversation.
 
@@ -54,11 +54,11 @@ The goal of feedback is to understand what most engages and inspires a team to b
 Managers of small teams may sometimes feel survey results don't provide value, especially if they easily and regularly connect with their team members. While there is truth in this thought, Broader Team Insights (BTI) gives a sense for how the larger organization is doing, including other voices and feedback.
 
 >[!NOTE]
->If a small team has enough responses to view their own data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes may seem intimidating but aren't necessarily indicative of actual sentiment changes. A survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the organizational picture.`
+>If a small team has enough responses to view their own data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes may seem intimidating but aren't necessarily indicative of actual sentiment changes. A survey-specific conversation with a small team is essential to ensuring a true understanding of the team's engagement and the organizational picture.`
 
 ### ACT conversations benefit teams who can't see their own results 
 
-Each team’s data rolls up into the next level, so each team is represented in their direct manager’s report. This data can be used as a starting point for small team's own ACT conversation. 
+Each team's data rolls up into the next level, so each team is represented in their direct manager’s report. This data can be used as a starting point for small team's own ACT conversation. 
 
 Managers should review results of the next direct team's results available and use the [Manager Quick Guide to Interpretation](/../../viva/glint/setup/quick-guide-manager-doc-pitfalls) to prepare their ACT conversation. Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and don't reflect their smaller-group experience. They can also discuss what action the team will commit to for making improvements.
 
