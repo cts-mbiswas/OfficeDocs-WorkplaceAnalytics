@@ -77,8 +77,8 @@ The card you create is what recipients see on their Viva Insights app homepage. 
 
     * If you're publishing a Power BI report, ensure that you have already shared it with your desired audience so they can access the content once you publish. [Learn more about sharing Power BI reports](/power-bi/collaborate-share/service-share-dashboards).  
 
-    >[!IMPORTANT]
-    > This feature does not filter or edit the data based on viewer, so whatever you publish is published as-is to all recipients.
+      >[!IMPORTANT]
+      > This feature does not filter or edit the data based on viewer, so whatever you publish is published as-is to all recipients.
 
     * If you're publishing a Power BI report, consider adding [row-level security](/fabric/security/service-admin-row-level-security) to it if you want viewers to only see a subset of the data that is applicable to them.
 
