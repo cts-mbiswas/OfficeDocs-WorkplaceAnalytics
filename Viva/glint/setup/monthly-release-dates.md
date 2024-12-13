@@ -1,5 +1,5 @@
 ---
-title: Plan for scheduled platform deployment dates
+title: Plan for Viva Glint platform deployment dates
 description: Viva Glint deployment dates are available to customers and provide details about what's upcoming for the Viva Glint platform. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/13/2024
 ---
 
-# Plan for Viva Glint scheduled platform deployment dates
+# Plan for Viva Glint platform deployment dates
 
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the regular maintenance. The release schedule is subject to change and is updated as appropriate. 
 
