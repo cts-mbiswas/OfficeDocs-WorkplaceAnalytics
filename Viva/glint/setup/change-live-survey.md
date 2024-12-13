@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/10/2024
+ms.date: 12/13/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -26,7 +26,7 @@ Some elements of a live recurring or ad hoc survey can be adjusted, but only mak
 
 Preview your survey before launching. Then follow these practices:
 
-| **Best Practice** | **Considerations** |
+|   Best Practice   |   Considerations   |
 | --- | --- | 
 |**Don't stop the survey**|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
 |**Make email and reminder edits only at the cycle level**| Program level changes don't apply to a live survey.|
@@ -42,7 +42,7 @@ Preview your survey before launching. Then follow these practices:
 
 Sometimes changing a live survey may be beneficial. 
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
 | Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a live survey are below.|
@@ -71,28 +71,28 @@ The information is broken out across **Program Summary** setup pages.
 
 ## Program Setup
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Add users** | Employees not yet included in your *Employee Attribute File* need to participate in the survey. | From the admin dashboard, select the **People** section and then **Send Survey**. Each new user is sent the email invitation immediately. From then on, these new users receive reminders according to the same schedule as all other users. |
 | **Edit a Distribution List** | The list of employees included or excluded in the survey needs adjustment. | A Distribution List can be adjusted at any time but doesn't automatically send a survey invitation to new users. Those invites have to be sent manually. |
 
 ## Schedule
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
 | **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
 
 ## Items (Questions)
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
 | **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. Live programs aren't affected by edits.|
@@ -152,7 +152,7 @@ A list of program names previously used or in use that include this survey item 
 
 ## Reporting
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
@@ -163,16 +163,15 @@ A list of program names previously used or in use that include this survey item 
 
 Live Communications edits only apply when made at the cycle level.
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
 | **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
 ## Other Live changes 
 
-| **Topic** | **Scenario** | **Considerations** |
+|   Topic   |   Scenario   |   Considerations   |
 | --- | --- | --- |
-|**Driver labels** | The reporting label for an item needs adjustment. | Proceed as needed. |
 | **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
 | **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
 | **Add users not in the Distribution List** | Employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature, then **Employee**, then **Action**, then **Send Survey**. |
