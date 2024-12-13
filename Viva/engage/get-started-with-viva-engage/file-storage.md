@@ -31,8 +31,8 @@ Files attached to posts in Viva Engage networks connected to Microsoft 365 are s
 
 Learn more about file storage in communities that connect to Microsoft 365 groups:
 
-- Learn about [File Storage for storyline posts](https://learn.microsoft.com/viva/engage/eac-storyline#file-storage-for-storyline)
-- Learn about [Viva Engage and Microsoft 365 groups](https://learn.microsoft.com/viva/engage/engage-microsoft-365-groups)
+- Learn about [File Storage for storyline posts](../eac-storyline.md#file-storage-for-storyline)
+- Learn about [Viva Engage and Microsoft 365 groups](../engage-microsoft-365-groups.md)
 - Learn how to [Enable or Disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
 > [!NOTE]
@@ -98,7 +98,7 @@ To determine the precise URL for a user's storyline page, follow these steps:
 
 Community posts can lose attached files and rich media when the Microsoft 365 group that backs up a connected community is deleted, when the group's SharePoint library is deleted, or if the folder structure (**Documents > Apps > Viva Engage**) is deleted or moved from their location. 
 
-To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
+To restore a deleted group, contact your administrator, Help desk, IT, or technical support department. For more information, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true). 
 
 To restore a document library, follow the instructions in [Restore items in the recycle bin that were deleted from SharePoint or Teams](https://support.microsoft.com/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be).
 
