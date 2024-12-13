@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/29/2024
+ms.date: 12/13/2024
 ---
 
 # Propel action-taking through conversations with Microsoft Viva Glint
@@ -25,6 +25,7 @@ actions taken based on that feedback. Many
 companies build excitement and energy 
 around taking the survey: “We want to hear 
 from you!” and “Thank you for the feedback!”. 
+
 However, the momentum often slows 
 somewhere between “Here’s what we’re going 
 to do about your feedback!” and what actually 
