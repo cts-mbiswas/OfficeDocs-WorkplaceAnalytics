@@ -56,7 +56,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
 1. Under **Featured collections** choose **Microsoft Viva**.
 
-    ![Screenshot of the Microsoft Viva collection.](../media/amplify/set-up-mac-collections.png).
+    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png).
 
 1. Select **Viva Amplify**.
 
@@ -97,7 +97,10 @@ Organizational Data is descriptive information about employees related to their 
 
 ### Manage campaign creation
 
-Viva Amplify is designed so that users with a wide range of roles, such as project managers who do regular status reports for stakeholders, can benefit from using campaigns. You can use the admin controls in Amplify to restrict who can create campaigns:
+Viva Amplify is designed so that users with a wide range of roles, such as project managers who do regular status reports for stakeholders, can benefit from using campaigns. You can use the admin controls in Amplify to restrict who can create campaigns.
+
+>[!NOTE]
+>Admins should ensure that users who are provided access to create campaigns also have disabled any "Limited-access user permission lockdown mode" for the root site. In some instances, admins may have to grant the users an additional permission which includes the UseRemoteAPIs permission. If you encounter issues, [view the permissions documentation](https://eng.ms/docs/experiences-devices/onedrivesharepoint/sharepoint-online-and-onedrive-for-business/sharepoint-collab-sharing/compteamwikitsgs/sharing/specificguides/permissionsissueswithlag).
 
 - The default setting enables everyone in the organization to create campaigns with Amplify.
 - You can choose to only allow specific people or security groups to create campaigns.
