@@ -221,21 +221,20 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Microsoft 365 Copilot in Viva Glint (preview)
+  - name: Microsoft 365 Copilot in Viva Glint
     items:
-      - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
+      - name: Introduction to Microsoft 365 Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator enablement for Copilot in Viva Glint (preview)
+      - name: Administrator enablement for Copilot in Viva Glint
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
-      - name: Managers using Microsoft 365 Copilot in Viva Glint (preview)
+      - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
-      - name: Microsoft 365 Copilot in Viva Glint-FAQs (preview)
+      - name: Copilot in Viva Glint- more FAQs 
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      
       - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
         href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
@@ -286,8 +285,6 @@ items:
                 items:
                   - name: Add items and sections
                     href: setup/add-new-questions.md
-                  - name: Edit questions during a live survey
-                    href: setup/question-edit.md
                   - name: Target survey items
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic
@@ -311,7 +308,7 @@ items:
                     href: reports/team-conversations-resource-guidance.md  
       - name: Employee Lifecycle surveys
         items:
-          - name: Use and set up an Employee Lifecycle survey
+          - name: Set up an Employee Lifecycle survey
             href: setup/program-summary-setup-lifecycle.md
           - name: Create an onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
@@ -321,47 +318,49 @@ items:
             href: setup/preview-filter-lifecycle-programs.md 
       - name: Create a 360 feedback program
         items:
-          - name: Overview and terminology
+          - name: 360 Overview and terminology
             href: setup/360-overview.md
           - name: 360 Feedback programs
             items:
-              - name: General settings
+              - name: 360 General settings
                 href: setup/360-general-settings.md
-              - name: User roles and permissions
+              - name: 360 User roles and permissions
                 href: setup/360-roles-permissions.md
-              - name: Program design and templates
+              - name: 360 Program design and templates
                 href: setup/360-design-templates.md
           - name: Manage 360 cycles
             items:
               - name: Create a new 360 cycle
                 href: setup/create-new-360-cycle.md
-              - name: Configure cycle settings
+              - name: Configure 360 cycle settings
                 items:
                   - name: Setup
                     href: ../360-config-cycle-settings.md
-                  - name: Survey questions
+                  - name: 360 Survey questions
                     items:
                        - name: Core questions
                          href: setup/360-core-questions.md
                        - name: Adding and editing questions
                          href: setup/360-add-edit-cycle-questions.md
-              - name: Feedback provider selections
+              - name: 360 Feedback provider selections
                 href: setup/overview-feedback-provider-selection.md
-              - name: Competencies and survey guidance
+              - name: 360 Competencies and survey guidance
                 href: setup/360-competencies.md
-              - name: Report access and timing
+              - name: 360 Report access and timing
                 href: setup/360-report-access-timing.md
-              - name: Schedule and communications setup
+              - name: 360 Schedule and communications setup
                 href: setup/360-schedules-comms.md
               - name: Customize 360 email content
                 href: setup/360-email-edits.md
-              - name: Manage subjects, coaches, feedback providers
+              - name: Manage 360 subjects, coaches, feedback providers
                 href: setup/360-manage-subjects.md
-          - name: Export and import cycle content
-            href: setup/360-export-import.md
-          - name: Test and launch
+              - name: Export and import 360 language translations
+                href: setup/360-export-import.md
+              - name: Export CSV reports for 360 Subjects
+                href: setup/360-download-csv.md
+          - name: Test and launch 360s
             href: setup/360-test-launch.md
-          - name: Admin experience during live survey
+          - name: Admin experience during live 360 survey
             href: setup/360-live-cycle-actions.md
           - name: 360 Subject experience
             href: setup/360-subject-experience.md
@@ -396,6 +395,8 @@ items:
         items:
           - name: Reopen or extend a survey cycle
             href: setup/reopen-survey.md
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
@@ -526,7 +527,9 @@ items:
            - name: Resolve upload warnings related to invalid or unexpected values
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload warnings related to manager hierarchy
-             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json 
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload errors and warnings related to employee ID updates
+             href: /viva/troubleshoot/glint/data-file-upload/fix-employee-id-updates-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
       - name: Historical Imports
         items:
            - name: Error "Duplicate entry"
