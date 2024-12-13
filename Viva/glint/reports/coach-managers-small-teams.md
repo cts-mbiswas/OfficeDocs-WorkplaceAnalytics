@@ -51,14 +51,15 @@ A manager has a team of more than five (5) employees but not all of them answer 
 The goal of feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involves a team in identifying actions to improve engagement. A limited view of results or BTI data can foster a rich team conversation.
 
 ## Small teams may seem less likely to need survey results, but this theory is incorrect
-Managers of small teams may sometimes feel survey results don't provide value, especially if they easily and regularly connect with their team members. While there is truth in this thought, Broader Team Insights (BTI) gives a sense for how the larger organization is doing, including other voices and feedback.
+Managers of small teams may sometimes feel survey results don't provide value, especially if they easily and regularly connect with their team members. While there is truth in this thought, Broader Team Insights 
+ (BTI) gives a sense for how the larger organization is doing, including other voices and feedback.
 
 >[!NOTE]
 >If a small team has enough responses to view their own data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes may seem intimidating but aren't necessarily indicative of actual sentiment changes. A survey-specific conversation with a small team is essential to ensuring a true understanding of the team's engagement and the organizational picture.`
 
 ### ACT conversations benefit teams who can't see their own results 
 
-Each team's data rolls up into the next level, so each team is represented in their direct manager’s report. This data can be used as a starting point for small team's own ACT conversation. 
+Each team's data rolls up into the next level, so each team is represented in their direct manager's report. This data can be used as a starting point for small team's own ACT conversation. 
 
 Managers should review results of the next direct team's results available and use the [Manager Quick Guide to Interpretation](/../../viva/glint/setup/quick-guide-manager-doc-pitfalls) to prepare their ACT conversation. Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and don't reflect their smaller-group experience. They can also discuss what action the team will commit to for making improvements.
 
