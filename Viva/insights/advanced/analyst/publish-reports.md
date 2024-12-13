@@ -125,7 +125,7 @@ Let’s say you want to publish your Hybrid workplace dashboard to your Engineer
 
 Once these details have been filled out, select **Publish** to publish your report.
 
-Upon publishing, the card is available immediately on recipients’ Viva Insights app homepage.  A Teams notification is sent to recipients during their working hours displaying the card , if the recipient hasn’t seen the card already. Recipients can only receive up to one Teams notification a day, so if you publish multiple reports, notifications might be suppressed. If recipients haven’t accessed the card after some time, they’ll receive a reminder notification.  
+Upon publishing, the card is available immediately on recipients’ Viva Insights app homepage.  A Teams notification is sent to recipients during their working hours displaying the card, if the recipient hasn’t seen the card already. Recipients can only receive up to one Teams notification a day, so if you publish multiple reports, notifications might be suppressed. If recipients haven’t accessed the card after some time, they’ll receive a reminder notification.  
 
 Finishing our example: 
 
