@@ -56,7 +56,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
 1. Under **Featured collections** choose **Microsoft Viva**.
 
-    ![Screenshot of the Microsoft Viva collection.](../media/amplify/set-up-mac-collections.png).
+    ![Screenshot of the Microsoft Viva collection](../media/amplify/set-up-mac-collections.png).
 
 1. Select **Viva Amplify**.
 
