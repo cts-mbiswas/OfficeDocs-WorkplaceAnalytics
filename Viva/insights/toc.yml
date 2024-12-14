@@ -194,6 +194,8 @@ items:
               href: advanced/analyst/templates/wellbeing.md
             - name: Power BI tips, FAQ, and troubleshooting
               href: advanced/analyst/templates/power-bi-faq-troubleshoot.md  
+          - name: Publish reports
+            href: advanced/analyst/publish-reports.md
           - name: Data quality
             href: advanced/analyst/data-quality-analyst-experience.md
           - name: Filters
