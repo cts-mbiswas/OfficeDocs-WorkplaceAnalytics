@@ -31,8 +31,8 @@ Files attached to posts in Viva Engage networks connected to Microsoft 365 are s
 
 Learn more about file storage in communities that connect to Microsoft 365 groups:
 
-- Learn about [File Storage for storyline posts](../eac-storyline.md#file-storage-for-storyline)
-- Learn about [Viva Engage and Microsoft 365 groups](../engage-microsoft-365-groups.md)
+- Learn about [File Storage for storyline posts](../eac-storyline.md#file-storage-for-storyline).
+- Learn about [Viva Engage and Microsoft 365 groups](../engage-microsoft-365-groups.md).
 - Learn how to [Enable or Disable the Community Resources Module and Files Tab](https://support.microsoft.com/en-gb/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135).
 
 > [!NOTE]
@@ -134,11 +134,11 @@ Files attached to storyline posts are stored in a hidden library in the authorâ€
 
 6. Open the **Attachments > Storyline** folder. The URL to the folder where storyline files are saved resembles this example:
 
-`https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
+    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
 
 7. Locate the previously attached file and select **Delete**.
 
-Files that users upload in Microsoft 365 connected groups are saved in the **Apps > Viva Engage** subfolder of the SharePoint document library for the group. Users can access the SharePoint document library from Viva Engage under **Microsoft 365 Resources** or **Office 365 Resources** on the right side of a Viva Engage group, or through SharePoint itself. The Viva Engage group must be Microsoft 365 connected.
+    Files that users upload in Microsoft 365 connected groups are saved in the **Apps > Viva Engage** subfolder of the SharePoint document library for the group. Users can access the SharePoint document library from Viva Engage under **Microsoft 365 Resources** or **Office 365 Resources** on the right side of a Viva Engage group, or through SharePoint itself. The Viva Engage group must be Microsoft 365 connected.
 
  > [!NOTE]
  > We recommend that you do not delete, move, or rename files in the **Apps > Viva Engage** subfolder.
@@ -159,9 +159,9 @@ To find the document library that backs up the community, use the [Graph Explore
 
 `https://graph.microsoft.com/v1.0/groups/contoso_program_managers_group/drive/special/approot/`
 
-- Learn [How do I find a community's group feed ID in Viva Engage](https://support.microsoft.com/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f#:~:text=To%20find%20the%20group%20ID%20for%20a%20Viva,an%20online%20tool%20to%20decode%20base%2064.%20) 
+- Learn [How do I find a community's group feed ID in Viva Engage](https://support.microsoft.com/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f#:~:text=To%20find%20the%20group%20ID%20for%20a%20Viva,an%20online%20tool%20to%20decode%20base%2064.%20).
 
-- Learn [How Yammer evolved to Viva Engage](https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825) 
+- Learn [How Yammer evolved to Viva Engage](https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-is-evolving-to-viva-engage/3738825).
 
 > [!Important]
 > In legacy communities created before March 2023, the SharePoint document libraries are named **Yammer** instead of **Viva Engage**.
