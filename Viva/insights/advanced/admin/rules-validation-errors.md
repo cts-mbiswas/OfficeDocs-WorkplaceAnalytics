@@ -104,7 +104,11 @@ Here's an example snippet of a valid .csv export file:
 
 ``PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest``
 
+## Download log for employees with missing data
 
+The **Data quality** page lets you know if there are missing measured users in your organizational data file. If so, you'll see the message, "{number} measured users have missing organizational data. Download which users have missing organizational data, and upload their data for higher quality insights."
+
+The download log shows measured users who are missing any data field *except* the Domain and TimeZone system fields.
 
 ## Validation errors and warnings
 
