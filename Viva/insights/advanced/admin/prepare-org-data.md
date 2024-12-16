@@ -95,20 +95,6 @@ The reason for including all licensed employees in the organization is that, if 
 >[!Important]
 >Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, see [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
 
-
-##### Notification of missing data
-
-If the app detects that data is missing for one or more licensed employees, it alerts admins through a pop-up notification in the top-right corner of the **Data connections** tab.
-
-###### Upload missing organizational data
-
-To upload this missing data, the admin can follow these steps:
-
-1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
-1. Open the .csv file.
-1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
-1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md) for more information.
-
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
 ### Step 3 - Get an export of organizational data

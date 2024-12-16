@@ -104,7 +104,11 @@ Here's an example snippet of a valid .csv export file:
 
 ``PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest``
 
+## Download log for employees with missing data
 
+The **Data quality** page lets you know if there are missing measured users in your organizational data file. If so, you'll see the message, "{number} measured users have missing organizational data. Download which users have missing organizational data, and upload their data for higher quality insights."
+
+The download log shows measured users who are missing any data field *except* the Domain and TimeZone system fields.
 
 ## Validation errors and warnings
 
@@ -141,7 +145,7 @@ Below are the validation errors and warnings related to field values. If **Uploa
 | | | {Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be an email address following the form `employee@contoso.com`.| Warning | All|
 | | | Invalid {header name} value. {Header name} should be a string. | Error | All |
 ||| {Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a string. | Warning |All |
-|||<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form MM/DD/YYYY, MM/DD/YYYY, MM/DD/YYYY followed by more text (such as time), MM-DD-YYYY, MM-DD-YY, YYYY-MM-DD, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12. <li>OR<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form DD/MM/YYYY, DD/MM/YYYY followed by more text (such as time), D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY , YYYY-DD-MM, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12. | Warning |All |
+|||<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form MM/DD/YYYY, MM/DD/YYYY, MM/DD/YYYY followed by more text (such as time), MM-DD-YYYY, MM-DD-YY, YYYY-MM-DD, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12. <li>OR<li>{Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a date following the form DD/MM/YYYY, DD/MM/YYYY followed by more text (such as time), D/MM/YYYY, D/MM/YY, DD-MM-YYYY, DD-MM-YY, YYYY-DD-MM, Wednesday, March 14, 2012, March 14, 2012, 14-Mar-2012, or 14-Mar-12. | Warning |All |
 |||Invalid {header name} value. {Header name} should be a double following the form 23.75. | Error |All |
 ||| {Header name} contains an invalid value. Rows with invalid values are not uploaded. {Header name} should be a double following the form 23.75. | Warning | All |
 ||| Invalid {header name} value. {Header name} should be an integer. | Error | All |
