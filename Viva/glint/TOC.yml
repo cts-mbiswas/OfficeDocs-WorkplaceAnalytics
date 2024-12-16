@@ -83,7 +83,7 @@ items:
             href: setup/access-glint.md
           - name: Survey program types and templates
             href: start/program-types-templates.md
-          - name: Plan for monthly releases
+          - name: Plan for monthly deployments
             href: setup/monthly-release-dates.md
           - name: Communications for internal readiness
             items:
