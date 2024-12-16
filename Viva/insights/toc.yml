@@ -100,6 +100,8 @@ items:
             href: advanced/admin/import-business-data-azure.md
           - name: Import business data with a .csv file
             href: advanced/admin/import-business-data-csv.md
+          - name: File rules and validation errors  
+            href: advanced/admin/rules-validation-errors.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
           - name: Integrate Viva Glint and Viva Insights data
@@ -112,8 +114,6 @@ items:
               href: advanced/admin/export-insights-data-glint.md
           - name: Create partitions
             href: advanced/admin/partitions.md
-          - name: File rules and validation errors  
-            href: advanced/admin/rules-validation-errors.md
           - name: Domain suppression
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
