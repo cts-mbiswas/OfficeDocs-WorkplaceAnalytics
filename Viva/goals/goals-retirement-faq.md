@@ -31,7 +31,7 @@ We remain committed to Viva and will continue to invest and prioritize developme
 
 ## Will Viva Goals be replaced with another solution?
 
-Microsoft won't be replacing Viva Goals or integrating its functionality into other products. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution. We're actively exploring third-party solutions and partnerships to facilitate a smoother transition and will update these FAQs as new information becomes available.
+Since Microsoft won’t be replacing Viva Goals or integrating its features into other products, we’ve put together an OKR software comparison of third-party tools and a list of Microsoft partners who can help you through this transition. To get a copy of this document, please contact GoalsDecom@microsoft.com. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution.
 
 ## How long will users have access to Viva Goals?
 
