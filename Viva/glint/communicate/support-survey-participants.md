@@ -19,7 +19,7 @@ ms.date: 12/17/2024
 
 # Support survey participants during a live Viva Glint survey
 
-Introduce Viva Glint surveys and [communicate proactively](/../../viva/glint/communicate/prelaunch-live-email-templates) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](/../../topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
+Introduce Viva Glint surveys and [communicate proactively](/../../viva/glint/communicate/prelaunch-live-email-templates) with your organization about upcoming surveys. During a live Viva Glint survey, participants can use [online support content](https://support.microsoft.com/en-us/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08) to answer many of their questions. Take other steps listed here to set up users for success to submit their valuable feedback.
 
 ## Create an FAQ document
 
@@ -52,7 +52,7 @@ If a user reaches out because they weren't included in a survey, use Viva Glint 
 
 ## Validate credentials for attribute-based survey access
 
-Your organization may use [attribute-based access](https://go.microsoft.com/fwlink/?linkid=2230745), which is often set up for access with a QR code or shortened link. If a user sees a "could not validate credentials" message, they'll reach out to confirm their details. To confirm a user’s credentials, go to Viva Glint Advanced Configuration. Export their information as it was when the survey launched with the [Export Users from a Survey Cycle Data App](https://go.microsoft.com/fwlink/?linkid=2245700).
+Your organization may use [attribute-based access](/../../viva/glint/setup/attribute-based-survey-access), which is often set up for access with a QR code or shortened link. If a user sees a **could not validate credentials** message, they reach out to confirm their details. To confirm a user’s credentials, go to Viva Glint Advanced Configuration. Export their information as it was when the survey launched with the [Export Users from a Survey Cycle Data App](/../../viva/glint/setup/glint-data-apps).
 
 ## Resend survey invites
 
