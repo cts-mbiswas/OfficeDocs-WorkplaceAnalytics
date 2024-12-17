@@ -31,7 +31,7 @@ We remain committed to Viva and will continue to invest and prioritize developme
 
 ## Will Viva Goals be replaced with another solution?
 
-Microsoft won't be replacing Viva Goals or integrating its functionality into other products. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution. We're actively exploring third-party solutions and partnerships to facilitate a smoother transition and will update these FAQs as new information becomes available.
+Since Microsoft won’t be replacing Viva Goals or integrating its features into other products, we’ve put together an OKR software comparison of third-party tools and a list of Microsoft partners who can help you through this transition. To get a copy of this document, please contact GoalsDecom@microsoft.com. Existing customers will have until December 31, 2025, or until their licenses expire, to transition to an alternative solution.
 
 ## How long will users have access to Viva Goals?
 
@@ -39,7 +39,7 @@ Users will have access to Viva Goals and their data until December 31, 2025, or 
 
 ## How can I export my data from Viva Goals?
 
-Viva Goals offers data export features via [API](/graph/api/goals-post-exportjobs?view=graph-rest-beta&tabs=http), [Excel](/viva/goals/explorer#save-and-export), and [PowerPoint](https://support.microsoft.com/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284), allowing users to move their data to a solution of their choice. We recommend that users export their data before December 31, 2025.
+Viva Goals offers data export features via [API](/graph/api/goals-post-exportjobs), [Excel](/viva/goals/explorer#save-and-export), and [PowerPoint](https://support.microsoft.com/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284), allowing users to move their data to a solution of their choice. We recommend that users export their data before December 31, 2025.
 
 ## How will deprecation affect integrations with other tools?
 
