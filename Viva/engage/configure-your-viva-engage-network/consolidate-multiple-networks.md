@@ -32,7 +32,7 @@ Here are the basic steps:
 |Step <br/> |Description <br/> |
 |:-----|:-----|
 |[Step 1: Plan](consolidate-multiple-networks.md#Plan) <br/> |Identify the Viva Engage networks to consolidate, identify data to export and upload, plan any needed changes to group structure and membership in the primary network, and plan communication with your users.  <br/> |
-|[Step 2: Export content from primary networks](consolidate-multiple-networks.md#Export) <br/> |IMPORTANT: Migration only migrates users, not content. <br/>Export all content from secondary Viva Engage networks in order to access the content later. No one can access the secondary network after the migration begins. |
+|[Step 2: Export content from secondary networks](consolidate-multiple-networks.md#Export) <br/> |IMPORTANT: Migration only migrates users, not content. <br/>Export all content from secondary Viva Engage networks in order to access the content later. No one can access the secondary network after the migration begins. |
 |[Step 3: Communicate with all users before the migration](consolidate-multiple-networks.md#Precommunicate) <br/> |Use the sample communication provided here to inform everyone on the secondary networks of the change, timing, what information is preserved, and the group structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining.  <br/> |
 |[Step 4: Perform the network migration](consolidate-multiple-networks.md#self-service) <br/> |Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Viva Engage network into the primary Viva Engage network, and turns off the secondary network. It doesn't migrate any conversations or files.  <br/> |
 |[Step 5: Make primary network changes](consolidate-multiple-networks.md#parentchanges) <br/> |Adjust the structure of your primary Viva Engage network so it meets the needs of users who will be joining it. Create groups, invite members to the groups, and upload files that you exported.  <br/> |
@@ -88,7 +88,7 @@ Here are the main questions to ask during the planning step:
             - If you have many groups, find someone who can use PowerShell and the Yammer API. Ask them to generate the group membership changes from your secondary network before migration and to set up the groups in your parent network.
         - If you want to load files or messages from the secondary network, find someone who can use Windows PowerShell and the Yammer API to write scripts to load the data.
 
-## Step 2: Export content from primary networks
+## Step 2: Export content from secondary networks
 
 <a name="Export"> </a>
 
