@@ -60,9 +60,6 @@ Your organization may use [attribute-based access](/../../viva/glint/setup/attri
 
 If a user is eligible for a survey but wasn’t included at the time of launch, use the Viva Glint [Send Survey](/../../viva/glint/setup/people-page) option to send an invite during a live survey. In the configuration section, select **People** and search for a user. After selecting their profile, select **Actions** and choose **Send Survey**, which sends in invite email.
 
-> [!IMPORTANT]
-> Once the first reminder is sent, the option to **resend survey invites** is greyed out. To clarify, this function only works between the original invite send date and before the first reminder is sent.
-
 ### Use the Viva Glint survey invite link
 
 Any user in your organization can use these links to resend invites for all of a user’s active surveys. Replace the **‘companyID’ with your own in the URL** (as an admin, go to General Settings and confirm the Client UUID value as your company ID). Enter a user’s email address and select **Email Survey Invite** to resend emails. The **Provide Feedback** button in the new emails uses the same [access method](/viva/glint/setup/understand-survey-access-methods) as the original invites (authentication with Microsoft Entra ID or a personalized link).
