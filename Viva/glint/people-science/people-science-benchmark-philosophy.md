@@ -44,6 +44,6 @@ Additionally, we review item usage across our entire taxonomy twice a year to en
 
 For industry and country benchmarks, Glint takes extra steps to ensure suites have all core Engagement items, including:
 -	Review of number of core items used by at least 15 clients:
- -	If fewer than 15 of the 21 core items meet the threshold, the suite is tagged as “Developing,” as we expect greater volatility of scores.
+    If fewer than 15 of the 21 core items meet the threshold, the suite is tagged as “Developing,” as we expect greater volatility of scores.
 -	Using a blended score for individual items slightly below the threshold:
- - 	The blended score is based on relationships found with the Global benchmark, combined with the client data for the suite itself.
+    The blended score is based on relationships found with the Global benchmark, combined with the client data for the suite itself.
