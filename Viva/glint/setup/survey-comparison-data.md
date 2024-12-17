@@ -67,7 +67,7 @@ In general, external benchmarks provide useful level-setting comparisons during 
 
 ### When is the external benchmark comparison useful?
 
-For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, and country.
+For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, or country.
 
 As you begin to survey more frequently, trends and internal comparisons become more useful than external benchmarks. They help you make incremental improvements in areas that matter most to your teams. While the external benchmark provides a meaningful reference point in assessing overall scores, managers shouldn't focus heavily on it. 
 
