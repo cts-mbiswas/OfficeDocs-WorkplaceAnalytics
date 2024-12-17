@@ -21,7 +21,7 @@ ms.date: 12/17/2024
 
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they're not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
-- With more than 10 years of benchmarking experience, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, enabling us to offer global, high-performing, industry or country benchmark suites using cross-customer data* exclusively.
+- With more than 10 years of benchmarking experience, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, enabling us to offer global, high-performing, industry, or country benchmark suites using cross-customer data* exclusively.
   
 - If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (for example, an industry-specific) norm.
 
