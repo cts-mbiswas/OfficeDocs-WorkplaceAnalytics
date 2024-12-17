@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 12/17/2024
 ---
 
 # Choose your benchmark comparison data for Viva Glint reporting
@@ -67,7 +67,7 @@ In general, external benchmarks provide useful level-setting comparisons during 
 
 ### When is the external benchmark comparison useful?
 
-For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, and country.
+For an initial survey, when no historical data exists, most organizations are interested in seeing how their scores compare to an *external* benchmark. This practice is a good way to begin orient your organization to their results. Viva Glint has more than 180 survey questions with benchmark data by industry, function, or country.
 
 As you begin to survey more frequently, trends and internal comparisons become more useful than external benchmarks. They help you make incremental improvements in areas that matter most to your teams. While the external benchmark provides a meaningful reference point in assessing overall scores, managers shouldn't focus heavily on it. 
 
@@ -84,7 +84,7 @@ After the first survey, managers should focus on their team's trend - change in 
 
 > [!TIP]
 > For Employee Lifecycle surveys, internal comparisons highlight the uniqueness of employee experiences by organization. There are, however, external benchmarks for standard onboarding and exit items.
- -
+
 ### When is the "My Teams" comparison useful?
 
 The **My Teams** comparison represents the scores for the user's total access within Viva Glint. 
