@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/13/2024
+ms.date: 12/17/2024
 ---
 
 # Choose your benchmark comparison data for Viva Glint reporting
@@ -84,7 +84,7 @@ After the first survey, managers should focus on their team's trend - change in 
 
 > [!TIP]
 > For Employee Lifecycle surveys, internal comparisons highlight the uniqueness of employee experiences by organization. There are, however, external benchmarks for standard onboarding and exit items.
- -
+
 ### When is the "My Teams" comparison useful?
 
 The **My Teams** comparison represents the scores for the user's total access within Viva Glint. 
