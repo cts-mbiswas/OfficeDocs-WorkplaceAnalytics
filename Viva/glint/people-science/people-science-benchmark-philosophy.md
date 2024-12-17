@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/02/2024
+ms.date: 12/17/2024
 ---
 
 # Viva People Science - Philosophy on appropriate use of benchmarks as comparisons
@@ -26,7 +26,7 @@ At Viva Glint, we believe benchmarks provide useful, level-setting comparisons d
 - If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (for example, an industry-specific) norm.
 
 >[!NOTE]
-> Viva Glint’s benchmark database contains benchmarks on more than 200 survey questions derived from survey responses representing 328 million data points over the last 12 months.
+> Viva Glint’s benchmark database contains benchmarks on more than 180 survey questions derived from survey responses representing 328 million data points over the last 12 months.
 
 ## Robust benchmarks come from our 1,300+ customer database
 
